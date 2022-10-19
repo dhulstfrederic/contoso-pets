@@ -20,8 +20,9 @@ namespace ContosoPets.Api.Controllers
         }
 
         [HttpGet]
-        public ActionResult<List<Product>> GetAll() =>
-            _context.Products.ToList();
+        public ActionResult<List<Product>> GetAll() {
+            return _context.Products.ToList();
+        }
 
         [HttpGet("{id}")]
         public async Task<ActionResult<Product>> GetById(long id)

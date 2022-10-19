@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = ContosoPets.Api
+build_property.ProjectDir = f:\BACKUP-SCRIPTS\dotnet\crud\contoso-pets\
